@@ -44,12 +44,12 @@
                 <span class="leftContent--text">Запишись на бесплатную тренировку и мы покажем тебе 
                     как все у нас устроено, какие мы используем тренажеры и ты сам все испытаешь на себе
                 </span>
-                <form class="leftContent--input" action="../store/submit" method="post">
+                <form id="form_1" class="leftContent--input" action="" method="post"> 
                     <div class="formMod">
-                        <input class="leftContent--nameInput" type="text" placeholder="Ваше имя">
-                        <input class="leftContent--nameInput" type="text" placeholder="Телефон">
+                        <input id="username" class="leftContent--nameInput" name="username" type="text" placeholder="Ваше имя">
+                        <input id="number" class="leftContent--nameInput" name="number" type="number" placeholder="Телефон">
                     </div>
-                    <input class="leftContent--submitInput" type="submit" value="Участвовать в акции">
+                    <input class="leftContent--submitInput" type="submit" value="Участвовать в акции" readonly>
                 </form>
             </div>
             <div class="main__footer">
@@ -796,6 +796,6 @@
 <script src="../helpers/secondContentGallery_slider/runningSLider.js"></script>
 <script src="../helpers/teamSLider/teamSlider.js"></script>
 <script src="../helpers/clientsSlider/clientsSLider.js"></script>
-
-
+<!-- localStorage -->
+<script src="../store/store.js"></script>
 </html>
